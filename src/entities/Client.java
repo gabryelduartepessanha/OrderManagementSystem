@@ -5,11 +5,10 @@ import java.util.Date;
 import java.util.logging.Formatter;
 
 public class Client {
+    static SimpleDateFormat modifDate = new SimpleDateFormat("dd/MM/yyyy");
     private String name;
     private String email;
     private Date birthDate;
-    static SimpleDateFormat modifDate = new SimpleDateFormat("dd/MM/yyyy");
-
     private Order order;
 
     public Client(){
